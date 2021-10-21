@@ -1,0 +1,180 @@
+/* Colours */
+/* fonts */
+body {
+    font-family: serif !important;
+    width: 100%;
+}
+h1, h2, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+h2 {
+    font-weight: 700;
+}
+h3 {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
+    text-transform: none;
+}
+p {
+    font-weight: 400;
+}
+strong {
+    font-weight: 700;
+}
+/* Utilities */
+.no-padding {
+    padding: 0 !important;
+}
+/* width */
+.container {
+    width: 100%;
+    max-width: 900px !important;
+    margin: 0 auto;
+    box-shadow: -1px 3px 9px 1px #888888;
+}
+/* Table Heading */
+.pricing-top-heading th {
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+    width: 23%;
+    border-right: 1px solid #c5c5c5;
+    padding: 14px 0px 0px 0px;
+
+}
+.pricing-bottom-heading th {
+    padding: 0 2%;
+    font-weight: 300;
+    border-right: 1px solid #c5c5c5;
+}
+.pricing-top-heading .free {
+    background-color: #f26b42;
+    border: 1px solid #f26b42;
+}
+.pricing-bottom-heading .free {
+    background-color: #f28d6e;
+    border: 1px solid #f28d6e;
+}
+.pricing-top-heading .basic {
+    background-color: #58c5c7;
+    border: 1px solid #58c5c7;
+}
+.pricing-bottom-heading .basic {
+    background-color: #7fd1d2;
+    border: 1px solid #7fd1d2;
+}
+.pricing-top-heading .pro {
+    background-color: #a5c653;
+    border: 1px solid #a5c653;
+}
+.pricing-bottom-heading .pro {
+    background-color: #b9d17b;
+    border: 1px solid #b9d17b;
+}
+.pricing-top-heading, .pricing-bottom-heading {
+    color: white;
+    height: 40pxpx;
+}
+table thead th {
+    border: 0;
+}
+.top-head th{
+    border-right: 1px solid #c5c5c5;
+}
+/* table */
+table {
+    width: 100%;
+}
+.collapsible-section-header {
+    background-color: #e1e1e1;
+}
+td.collapsible-section-header {
+    font-size: 14px;
+    font-weight: bold;
+}
+.collapsible-section-header a {
+    color: #363636;
+    font-weight: 700;
+    text-decoration: none;
+}
+.collapsible-section-header a:before {
+    content: '\005E';
+    padding-right: 0.5em;
+}
+.collapsible-section-header a.collapsed::before {
+    content: '\02C5';
+    padding-right: 0.5em;
+}
+.collapsible-section-header a:hover{
+    text-decoration: none;
+}
+tr{
+    text-align: center;
+}
+tbody td {
+    background-color: #ededed;
+    border: 1px solid #d1d1d1;
+    padding: 17px;
+    width: 23%;
+}
+button.btn {
+    background-color: #7C6E99;
+    width: 128px;
+    padding: 4px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+button.btn1{
+    background-color: #A7CB1A !important;
+}
+button.btn2{
+    background-color: #4C7CA5 !important;
+}
+.top-head th button.btn{
+    margin: 0 auto;
+    padding: 14px 0px 0px 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fa, .fas{
+    color: #a7cb1a;
+}
+.fal{
+    color: #a7cb1a;
+}
+ .best th{
+    border-right: unset !important;
+padding: 2px !important;
+}
+@media screen and (max-width: 530px) {
+    .container {
+      
+      width: 423px !important;
+      margin: 0 auto;
+    }
+    button.btn{
+        width: 90px !important;
+    }
+  }
+  @media screen and (max-width: 620px) {
+
+    button.btn{
+        width: 80px !important;
+    }
+  }
+  @media screen and (max-width: 530px) {
+    tbody td {
+      
+     padding: 7px;
+    }
+    td.collapsible-section-header{
+        font-size: 10px !important;
+    }
+  }
